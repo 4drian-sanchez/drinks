@@ -6,9 +6,10 @@ export default {
   ],
   theme: {
     extend: {
-      /* "header": "url('./bg.jpg')" */
+      backgroundImage : {
+        "header" : "url('/bg.jpg')"
+      }
     },
   },
   plugins: [],
 }
-
